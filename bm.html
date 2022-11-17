@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html id="ttpage">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>bibliotheque-multimedia</title>
+</head>
+
+<body>
+
+
+    <nav class="bm_nav">
+        <ul>
+            <li class="menu">
+                <div class="menu_bar"></div>
+                <div class="menu_bar"></div>
+                <div class="menu_bar"></div>
+            </li>
+            <li class="nav_header"><img class="logo" src="imagebm/logo.png"></li>
+            <li class="seul_page"><a href="https://www.agglo-grandgueret.fr/historique">Agglomération</a></li>
+            <li class="seul_page"><a href="https://www.agglo-grandgueret.fr/politique-de-la-ville">Politique</a></li>
+            <li class="seul_page"><a href="https://www.agglo-grandgueret.fr/les-horaires-du-reseau-agglobus">Transports</a></li>
+            <li class="seul_page"><a href="https://www.agglo-grandgueret.fr/tourisme-dans-les-monts-de-gueret">Tourisme</a></li>
+            <li class="seul_page"><a href="https://www.agglo-grandgueret.fr/bibliotheque-multimedia">Culture</a></li>
+            <li class="seul_page"><a href="https://www.agglo-grandgueret.fr/search/node"><img src="imagebm/recherche.png"></a></li>
+        </ul>
+    </nav>
+
+
+    <script>
+        document.getElementsByClassName("menu")[0].addEventListener("click", function(e) {
+	var eles;
+	if (e.target.tagName === "LI") {
+		eles = e.target.parentNode.children;
+	} else {
+		eles = e.target.parentNode.parentNode.children;
+	}
+	var len = eles.length;
+	for (var i = 2; i < eles.length; i++) {
+		eles[i].classList.toggle("collapse");
+	}
+    });
+    </script>
+
+
+
+
+
+<img class='imag' src="imagebm/bmphoto.jpg"> 
+<div class="contenu">  
+<div class='present'>
+    <h1>Bibliothèque multimédia</h1>
+    <p>Insérée au cœur d’un complexe culturel et sportif entre l’esplanade Nelson Mandela et la piscine municipale, la Bibliothèque Multimédia du Grand Guéret est le lieu privilégié de la lecture publique et de la culture partagées sur l’agglomération.<br><br>
+        Déployée sur 3000m2 avec deux niveaux de lecture publique, le rez-de-chaussée et le 1er étage, elle met gratuitement à disposition de tous, une collection de plus de 135 000 documents dont prés de 81000 livres de lecture publique, 13600 CD, et près de 8300 DVD et Blu-ray ainsi que des journaux et revues… dans tous les grands domaines de la connaissance.<br><br>
+        Conçue aussi comme un lieu de rencontres et d’échanges culturels, elle accueille et produit des manifestations en lien avec le livre et la lecture (conférences/débats, lectures, spectacles, projections, expositions…).
+    </p>
+</div>
+
+<div class="pub">
+    <table class="pub1"><tr>
+        <td><a href="https://www.agglo-grandgueret.fr/sites/default/files/documents/01._guide_du_lecteur_bmi.pdf"><img src="imagebm/guide.png"></a> </td>
+        <td><a href="https://www.agglo-grandgueret.fr/sites/default/files/documents/02.plaquette-biblio-ecoles.pdf"><img src="imagebm/platte.png"></a> </td>
+        <td><div><h3>ACCÈS ET CONTACT</h3>
+            <br>
+            <b>Bibliothèque Multimédia du Grand<br>
+            Guéret</b><br>
+            8 Avenue Fayolle<br>
+            23000 GUERET<br>
+            <br>
+            <br>
+            <b>Adresse postale :</b><br>
+            BP 302<br>
+            23006 GUERET CEDEX<br>
+            <br>
+            <br>
+            <b>Anne-Marie CORCHI</b><br>
+            Directrice de la Bibliothèque Multimédia<br>
+            du Grand Guéret<br>
+            05.87.63.00.08<br>
+            annemarie.corchi@agglo-grandgueret.fr</div>
+        </td></tr>
+    </table>
+
+    <div class="pub2"><p>SUR LE WEB<br><a href="http://www.bm-grandgueret.fr/">bm-grandgueret.fr</a></p></div>
+    <div class="vide"></div>
+    <div class="pub2"><p>Suivez BM News<br><a href="http://www.facebook.com/bmigueret">facebook.com/bmigueret</a></p></div>
+</div>
+
+<div class="actu">
+    <h1>Actualités culture</h1>
+    <div class="box"><p id="lefttop">13/06/2022</p><a href="https://www.agglo-grandgueret.fr/actualites/en-juin-et-en-juillet-la-bibliotheque-multimedia-du-grand-gueret"><img src="imagebm/actu_expo.png"></a><p id="rightbas">Exposition de photographies de<br>Martine Prunier et Patrick Bravin</p></div>
+    <div class="videa"></div>
+    <div class="box"><p id="lefttop">21/04/2022</p><a href="https://www.agglo-grandgueret.fr/actualites/programmation-mai-2022-la-bibliotheque-multimedia-du-grand-gueret"><img src="imagebm/actu_expo1.png"></a><p id="rightbas">Exposition photographique "Cris du<br>cœur", de Thomas Jouhannaud</p></div>
+    
+</div>
+</body>
+
+<footer>
+<div class="fplusgrd">
+    <div class="flogo">
+        <div><a href="https://www.agglo-grandgueret.fr/"><img class="flogoimg" src="imagebm/flogo.png"></a></div>
+        <div><p>9, avenue Charles de Gaulle<br>BP 302<br>23006 Guéret Cedex</p></div>
+    </div>
+    <div class="f3rs">
+        <div class="fcarre">
+            <div class="pint"><a href="http://pinterest.com/grandgueret/"><img src="imagebm/pint.png"></a></div>
+        
+            <div class="twitfb">
+                <a class="twit" href="https://twitter.com/GrandGueret"><img src="imagebm/twit.png"></a>
+            
+                <a class="fb" href="https://www.facebook.com/grandgueret"><img src="imagebm/fb.png"></a>
+            </div>
+        </div>
+        <div><p>Retrouvez nous sur les<br>réseaux sociaux</p></div>
+    </div>
+    <div class="ftel">
+        <div><img class="ftelimg" src="imagebm/ftel.png"></div>
+        <div><p><a href="tel:+33555410448">Téléphone: 05 55 41 04 48</a><br>Fax: 05 55 41 13 01<br><a href="mailto:direction.generale@agglo-grandgueret.fr">@: direction.generale@agglo-grandgueret.fr</a></p></div>
+    </div>
+
+    </div>
+    <div class="plusbas">
+        <button id="btn">[Fort contraste]</button>
+        <div class="vide"></div>
+        <a href="https://www.agglo-grandgueret.fr/sitemap">Plan du Site</a>
+        <div class="vide"></div>
+        <a href="https://www.agglo-grandgueret.fr/offres-emploi">Offres demplois</a>
+        <div class="vide"></div>
+        <a href="https://www.agglo-grandgueret.fr/mentions-legales">Mentions légales</a>
+        <div class="vide"></div>
+        <a href="https://www.agglo-grandgueret.fr/politique-de-confidentialite">Cookies</a>
+        <div class="vide"></div>
+        <a href="https://www.agglo-grandgueret.fr/contact">Contact et Accès</a>
+        
+        
+    </div>
+
+    
+    <script>
+        var elm = document.getElementById('ttpage');
+        btn = document.getElementById('btn')
+        btn.onclick = function(){
+            if(elm.style.filter=="grayscale(0)"){
+                elm.setAttribute('style','filter: grayscale(100%)');
+            }
+            else{
+                elm.setAttribute('style','filter: grayscale(0)');
+            }
+            }
+    </script>
+</footer>
+</html>
